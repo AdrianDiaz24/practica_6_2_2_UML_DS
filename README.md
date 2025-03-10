@@ -135,5 +135,21 @@
       GestorValidacion --> PantallaATM : Confirmar validación
       
       PantallaATM --> Cliente : Mostrar mensaje validación
-      
+ 
       @enduml
+ 
+    ## Interpretacion del diagrama
+ 
+    - El cliente introduce su tarjeta y el pin en la pantalla del ATM
+    - Una vez introducido por pantalla se envian los datos al Gestor de validacion quien se encarga de controlar la validacion
+    - El gestor consulta la informacion con el repositorio que guarda la informacion de los usuarios y recibe una respuesta del repositorio con los datos
+    - Una vez que el control de validacion, valida el inicio de sesion le dice al repositorio que actualice el ultimo inicio de sesion del usuario y recibe la respuesta del repositorio una vez actualizado
+    - Una vez realizado esto el gesto valida el inicio de sesion y la pantalla le muesta al usuario que ha iniciado sesion correctamente
+   
+    ## Respoder pregunta
+
+    - ¿De que manera te ayuda un diagrama de secuencias durante el proceso de desarrollo del software?
+   
+    Ayuda a ver la interacciones que se van realizando a lo largo del proceso y quien lo realiza, ayudando a la hora de pasarlo a codigo al tener este boceto, ademas de ver los metodos que se usaran en el desarrollo
+      
+      
