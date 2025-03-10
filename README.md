@@ -1,7 +1,9 @@
 # Diagrama de secuencias
 ## Secuencias estereotipadas
 - Sacar dinero
-  
+
+    ![Estereotipado de Sacar Dinero](EstereotipadoSacarDinero.png)
+
     @startuml
     
     actor Cliente
@@ -35,6 +37,8 @@
     @enduml
   
 - Validarse
+
+    ![Estereotipado de Validarse](EstereotipadoValidarse.png)
   
     @startuml
     
@@ -63,7 +67,9 @@
   ## Secuencia final
 
   - Sacar dinero
- 
+
+    ![Final de Sacar Dinero](FInalSacarDinero.png)
+
     @startuml
     
     actor Cliente
@@ -101,6 +107,8 @@
     @enduml
 
   - Validarse
+ 
+    ![Final de Validarse](FinalValidarse.png)
    
       @startuml
       
